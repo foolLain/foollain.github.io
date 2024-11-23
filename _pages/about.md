@@ -21,7 +21,7 @@ I obtained my Bachelor of Engineering degree in Intelligent Science and Technolo
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Nothing happens, another wasted day.
+- *20xx.xx*: &nbsp;🎉🎉 Nothing happens, another wasted day.
 
 # 📝 Publications 
 
