@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I obtained my Bachelor of Engineering degree in Intelligent Science and Technology from the [School of Intelligent Science and Technology](https://ai.ustb.edu.cn/) at [University of Science and Technology Beijing (USTB)](https://ustb.edu.cn). Currently, I am pursuing a Master of Engineering in Artificial Intelligence at [Zhejiang University International Joint Institute (ZJUI)](https://zjui.intl.zju.edu.cn/), where my primary research focus is on Spiking Neural Networks and Model Compression Techniques.
+I obtained my Bachelor of Engineering degree in Intelligent Science and Technology from the [School of Intelligent Science and Technology](https://ai.ustb.edu.cn/) at [University of Science and Technology Beijing (USTB)](https://ustb.edu.cn). Currently, I am pursuing a Master of Engineering in Artificial Intelligence at [ZJU-UIUC Institute](https://zjui.intl.zju.edu.cn/), [Zhejiang University](https://www.zju.edu.cn/) where my primary research focus is on **Spiking Neural Networks** and **Model Compression Techniques (Quantization, Distillation)**.
 
 
 # 🔥 News
