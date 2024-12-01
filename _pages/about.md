@@ -32,6 +32,8 @@ Network for Diffusion Models](https://arxiv.org/abs/2402.11588), **Shu Yang**, H
 
 - Memory- and Time-Efficient Spiking Neural Networks through Multistep Spike Compression and Re-encoding, **Shu Yang**, Hanzhi Ma, Er-Ping Li, **Submitting to IEEE SPL**
 
+- Efficient ANN-Guided Distillation: Aligning Rate-based Features of Spiking Neural Networks through Hybrid Block-wise Replacement, **Shu Yang**, Chengting Yu, Lei Liu, Hanzhi Ma, Aili Wang, Erping Li, **CVPR 2025 under review**
+
 
 # 🎖 Honors and Awards
 - *2020.03* University of Science and Technology Beijing Freshman Scholarship. 
