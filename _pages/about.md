@@ -25,14 +25,16 @@ I obtained my Bachelor of Engineering degree in Intelligent Science and Technolo
 
 # 📝 Publications 
 
+- Efficient ANN-Guided Distillation: Aligning Rate-based Features of Spiking Neural Networks through Hybrid Block-wise Replacement, **Shu Yang**, Chengting Yu, Lei Liu, Hanzhi Ma, Aili Wang, Erping Li, **CVPR 2025 accepted**
+
 - [SDiT: A Transformer-Based Spiking Neural
 Network for Diffusion Models](https://arxiv.org/abs/2402.11588), **Shu Yang**, Hanzhi Ma, Chengting Yu, Aili Wang, Er-Ping Li, **Arxiv**
 
-- Improving Quantization-aware Training of Low-Precision Network via Block Replacement on Full-Precision Counterpart, Chengting Yu, **Shu Yang**, Fengzhao Zhang, Hanzhi Ma, Aili Wang, Erping Li, **IEEE Transactions on Artificial Intelligence (TAI) under review**
+- Improving Quantization-aware Training of Low-Precision Network via Block Replacement on Full-Precision Counterpart, Chengting Yu, **Shu Yang**, Fengzhao Zhang, Hanzhi Ma, Aili Wang, Erping Li, **Applied Intelligence under review**
 
-- Memory- and Time-Efficient Spiking Neural Networks through Multistep Spike Compression and Re-encoding, **Shu Yang**, Hanzhi Ma, Er-Ping Li, **Submitting to IEEE SPL**
+- Memory- and Time-Efficient Spiking Neural Networks through Multistep Spike Compression and Re-encoding, **Shu Yang**, Hanzhi Ma, Er-Ping Li
 
-- Efficient ANN-Guided Distillation: Aligning Rate-based Features of Spiking Neural Networks through Hybrid Block-wise Replacement, **Shu Yang**, Chengting Yu, Lei Liu, Hanzhi Ma, Aili Wang, Erping Li, **CVPR 2025 under review**
+
 
 
 # 🎖 Honors and Awards
