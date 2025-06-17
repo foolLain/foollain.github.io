@@ -20,7 +20,7 @@ redirect_from:
 
 ESCAPING
 
-Hello 你好, here is Shu Yang（杨树）。
+Hello 你好, here is Shu Yang(杨树).
 I obtained my Bachelor of Engineering degree in Intelligent Science and Technology from the [School of Intelligent Science and Technology](https://ai.ustb.edu.cn/) at [University of Science and Technology Beijing (USTB)](https://ustb.edu.cn). Currently, I am pursuing a Master of Engineering in Artificial Intelligence at [ZJU-UIUC Institute](https://zjui.intl.zju.edu.cn/), [Zhejiang University](https://www.zju.edu.cn/) where my primary research focus is on **Spiking Neural Networks** and **Model Compression Techniques (Quantization, Distillation)**.
 
 
