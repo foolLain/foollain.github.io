@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-<span style="font-family: '楷体', 'KaiTi', serif; font-size: 14px; color: #333; letter-spacing: 1px;">“玄德曰：吾乃笼中鸟，网中鱼，此一行如鱼入海，乌上青霄，不受笼网中之羁也。”</span>
+<span style="font-family: '楷体', 'KaiTi', serif; font-size: 14px; color: #333; letter-spacing: 1px;">“玄德曰：吾乃笼中鸟，网中鱼，此一行如鱼入大海，鸟上青霄，不受笼网之羁绊也。”</span>
 
 Hello 你好, here is Shu Yang（杨树）。
 
@@ -28,7 +28,7 @@ I obtained my Bachelor of Engineering degree in Intelligent Science and Technolo
 
 # 📝 Publications 
 
-- Efficient ANN-Guided Distillation: Aligning Rate-based Features of Spiking Neural Networks through Hybrid Block-wise Replacement](https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Efficient_ANN-Guided_Distillation_Aligning_Rate-based_Features_of_Spiking_Neural_Networks_CVPR_2025_paper.html), **Shu Yang**, Chengting Yu, Lei Liu, Hanzhi Ma, Aili Wang, Erping Li, **CVPR 2025 accepted**
+- [Efficient ANN-Guided Distillation: Aligning Rate-based Features of Spiking Neural Networks through Hybrid Block-wise Replacement](https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Efficient_ANN-Guided_Distillation_Aligning_Rate-based_Features_of_Spiking_Neural_Networks_CVPR_2025_paper.html), **Shu Yang**, Chengting Yu, Lei Liu, Hanzhi Ma, Aili Wang, Erping Li, **CVPR 2025 accepted**
 
 - [SDiT: A Transformer-Based Spiking Neural
 Network for Diffusion Models](https://arxiv.org/abs/2402.11588), **Shu Yang**, Hanzhi Ma, Chengting Yu, Aili Wang, Er-Ping Li, **Arxiv**
