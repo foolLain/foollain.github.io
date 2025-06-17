@@ -45,7 +45,8 @@ Network for Diffusion Models](https://arxiv.org/abs/2402.11588), **Shu Yang**, H
 - *2020.09* University of Science and Technology Beijing People's Scholarship.
 - *2020.09* University of Science and Technology Beijing Triple Good Student.
 
-# 📖 Educations
+# 📖 Experience
+- *2025.04 - now*, MLE intern in Recomandation System, Douyin E-Commerce, ByteDance. 
 - *2023.09 - 2026.06 (now)*, ZJUI, Zhejiang University. 
 - *2019.09 - 2023.06*, School of Intelligence Science and Technology, University of Science and Technology Beijing. 
 
