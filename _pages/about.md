@@ -34,7 +34,7 @@ I obtained my Bachelor of Engineering degree in Intelligent Science and Technolo
 - [SDiT: A Transformer-Based Spiking Neural
 Network for Diffusion Models](https://arxiv.org/abs/2402.11588), **Shu Yang**, Hanzhi Ma, Chengting Yu, Aili Wang, Er-Ping Li, **Arxiv**
 
-- Improving Quantization-aware Training of Low-Precision Network via Block Replacement on Full-Precision Counterpart, Chengting Yu, **Shu Yang**, Fengzhao Zhang, Hanzhi Ma, Aili Wang, Erping Li, **Applied Intelligence under review**
+- Improving Quantization-aware Training of Low-Precision Network via Block Replacement on Full-Precision Counterpart, Chengting Yu, **Shu Yang**, Fengzhao Zhang, Hanzhi Ma, Aili Wang, Erping Li, **Neural Networks under review**
 
 - Memory- and Time-Efficient Spiking Neural Networks through Multistep Spike Compression and Re-encoding, **Shu Yang**, Hanzhi Ma, Er-Ping Li
 
