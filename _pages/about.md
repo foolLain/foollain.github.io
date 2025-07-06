@@ -20,7 +20,7 @@ redirect_from:
 
 <span style="
   font-family: 'Cinzel', 'Playfair Display', serif;
-  font-size: 32px;
+  font-size: 18px;
   font-style: italic;
   letter-spacing: 1px;
   color: #333;
