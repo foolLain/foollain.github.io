@@ -1,10 +1,19 @@
-// 我的喜爱页面交互功能
+// 我的喜爱页面交互功能 - 仅在favorites页面运行
 document.addEventListener('DOMContentLoaded', function() {
+  // 检查是否在favorites页面
+  if (!window.location.pathname.includes('/favorites/')) {
+    return; // 不在favorites页面，不执行任何代码
+  }
+  
   // 图片画廊模态框功能
   const modal = document.getElementById('imageModal');
   const modalImg = document.getElementById('modalImage');
   const modalCaption = document.getElementById('modalCaption');
   const closeBtn = document.querySelector('.close');
+  
+  if (!modal || !modalImg || !modalCaption || !closeBtn) {
+    return; // 必要的元素不存在，退出
+  }
   
   // 为所有画廊图片添加点击事件
   const galleryItems = document.querySelectorAll('.gallery-item img');
@@ -47,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
       // 这里可以添加播放音乐的逻辑
       const albumName = this.querySelector('h3').textContent;
-      console.log(`播放专辑: ${albumName}`);
+      console.log(`Playing album: ${albumName}`);
     });
   });
   
@@ -92,23 +101,16 @@ document.addEventListener('DOMContentLoaded', function() {
   albumCovers.forEach(cover => {
     cover.addEventListener('mouseenter', function() {
       const overlay = this.querySelector('.album-overlay');
-      overlay.style.opacity = '1';
+      if (overlay) {
+        overlay.style.opacity = '1';
+      }
     });
     
     cover.addEventListener('mouseleave', function() {
       const overlay = this.querySelector('.album-overlay');
-      overlay.style.opacity = '0';
+      if (overlay) {
+        overlay.style.opacity = '0';
+      }
     });
   });
-  
-  // 添加页面加载完成后的淡入效果
-  setTimeout(() => {
-    document.body.style.opacity = '1';
-  }, 100);
-});
-
-// 页面加载时的淡入效果
-document.addEventListener('DOMContentLoaded', function() {
-  document.body.style.opacity = '0';
-  document.body.style.transition = 'opacity 0.8s ease';
 });

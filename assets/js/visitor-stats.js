@@ -1,21 +1,27 @@
-// 访客地区统计展板功能
+// 访客地区统计展板功能 - 仅在侧边栏存在时运行
 document.addEventListener('DOMContentLoaded', function() {
+  // 检查访客统计展板是否存在
+  const statsPanel = document.querySelector('.visitor-stats-panel');
+  if (!statsPanel) {
+    return; // 展板不存在，不执行任何代码
+  }
+  
   // 模拟访客数据（实际项目中应该从后端API获取）
   const mockVisitorData = {
     totalVisitors: 12547,
     uniqueCountries: 23,
     todayVisitors: 89,
     countries: [
-      { name: '中国', count: 8234, flag: '🇨🇳' },
-      { name: '美国', count: 2156, flag: '🇺🇸' },
-      { name: '日本', count: 987, flag: '🇯🇵' },
-      { name: '韩国', count: 654, flag: '🇰🇷' },
-      { name: '德国', count: 432, flag: '🇩🇪' },
-      { name: '英国', count: 398, flag: '🇬🇧' },
-      { name: '法国', count: 287, flag: '🇫🇷' },
-      { name: '加拿大', count: 234, flag: '🇨🇦' },
-      { name: '澳大利亚', count: 198, flag: '🇦🇺' },
-      { name: '新加坡', count: 156, flag: '🇸🇬' }
+      { name: 'China', count: 8234, flag: '🇨🇳' },
+      { name: 'United States', count: 2156, flag: '🇺🇸' },
+      { name: 'Japan', count: 987, flag: '🇯🇵' },
+      { name: 'South Korea', count: 654, flag: '🇰🇷' },
+      { name: 'Germany', count: 432, flag: '🇩🇪' },
+      { name: 'United Kingdom', count: 398, flag: '🇬🇧' },
+      { name: 'France', count: 287, flag: '🇫🇷' },
+      { name: 'Canada', count: 234, flag: '🇨🇦' },
+      { name: 'Australia', count: 198, flag: '🇦🇺' },
+      { name: 'Singapore', count: 156, flag: '🇸🇬' }
     ]
   };
   
@@ -103,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!lastUpdate) return;
     
     const now = new Date();
-    const timeString = now.toLocaleTimeString('zh-CN', {
+    const timeString = now.toLocaleTimeString('en-US', {
       hour: '2-digit',
       minute: '2-digit',
       second: '2-digit'
@@ -164,9 +170,9 @@ document.addEventListener('DOMContentLoaded', function() {
     info.className = 'map-info';
     info.innerHTML = `
       <div class="map-info-content">
-        <h4>世界访客分布</h4>
-        <p>总共有 ${mockVisitorData.uniqueCountries} 个国家/地区的访客访问过本站</p>
-        <p>主要访客来自亚洲地区，占总访客数的 75%</p>
+        <h4>World Visitor Distribution</h4>
+        <p>Total visitors from ${mockVisitorData.uniqueCountries} countries/regions</p>
+        <p>Main visitors are from Asia, accounting for 75% of total visitors</p>
       </div>
     `;
     
